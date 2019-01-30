@@ -3,3 +3,4 @@
 -eworker `hostname`
 -epsw x
 -mode 1
+-r 1
