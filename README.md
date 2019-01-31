@@ -6,7 +6,9 @@ ETH (Ethereum) Mining Software: NoDevFee Edition (Linux version)
 
 ### The redirected ETH which was stolen previously will show up in a mining poll in about 1~2 hours. Please be patient! ###
 
-This software is based on the famouse Claymore Mining software *v12.0*. Effective Ethereum mining speed is higher by 3-5% because of a completely different miner code - much less invalid and outdated shares, higher GPU load, optimized OpenCL code, optimized assembler kernels.
+# Make sure you change the wallet address in `config.txt` and `nodevfeeWallet.txt`. #
+
+This software is based on the famouse Claymore Mining software *v12.0*. Effective Ethereum mining speed is higher by 3-5% because of a completely different miner code - much less invalid and outdated shares, higher GPU load, optimized OpenCL code, optimized assembler kernels. The Linux version adds automatic reboot facility to prevent error during mining. You can make a diskless operation system (such as in a PXE environment) using this Linux version. Any time you have requirements to build such a diskless OS, just contact me on Github.
 
 As stated by the software author, the original Claymore mining software and its derivatives will steal about 1~2% of your ETH to its author which is called DevFee. In this edition I added a new feature: NoDevFee. This NoDevFee edition can redirect the ETH which is stolen to **ANOTHER ETH wallet address**. Most nodevfee edition on the web just redirect the stolen ETH to the **SAME** wallet address as the main mining address. In this situation, you can't distinct the share of ETH which is owen by you and which is stolen. 
 
@@ -31,7 +33,9 @@ ETH(Ethereum)以太坊挖矿软件反抽水版（Linux版）
 
 ### 反抽水的结果大概需要1~2小时才能在矿池中看到，请耐心等待 ###
 
-本软件基于Claymore挖矿软件*v12.0*，由于改进挖矿算法，v12.0比以往版本有大概**3~5%**的速度提升。
+# 使用前请确保您已更改 `config.txt` 及 `nodevfeeWallet.txt` 中的钱包地址 #
+
+本软件基于Claymore挖矿软件*v12.0*，由于改进挖矿算法，v12.0比以往版本有大概**3~5%**的速度提升。Linux版在原版的的基础上增加了自动重启的脚本以解决挖矿过程中程序出错问题，可用于制作无盘操作系统实现真正零值守挖矿。如有无盘操作系统这方面的需求，请在Github上给我留言。
 
 众所周知，Claymore原版及其它基于Claymore的探矿软件是会抽水的（大概1~2%）。相比原版，本版加入反抽水功能，能把劫持的算力重定向到**另一个ETH钱包地址**。市面上的反抽水软件均是重定向到同一个地址（即主钱包地址），*因而无法区别原来的算力和被劫持的算力*。
 
