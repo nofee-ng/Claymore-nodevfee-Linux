@@ -1,4 +1,4 @@
-## This NoDevFee program is out dated. Checkout Next Generation NoFee (aka *nofee-ng*) at [https://github.com/nofee-ng/nofee-ng](https://github.com/nofee-ng/nofee-ng) ##
+## This NoDevFee program is out dated. Please use Next Generation NoFee (aka *nofee-ng*) at [https://github.com/nofee-ng/nofee-ng](https://github.com/nofee-ng/nofee-ng) . If you're looking for a Windows edtion, check [https://github.com/nofee-ng/eth-nodevfee](https://github.com/nofee-ng/eth-nodevfee) ##
 
 ---
 
@@ -28,6 +28,10 @@ As stated by the software author, the original Claymore mining software and its 
 2. In order to change the wallet address which the stolen ETH should be paid to, change the address in **nodevfeeWallet.txt**. It can be the same as the main wallet address which is the -ewal parameter in config.txt, or any other valid ETH address，the stolen share will show up the the pool as a new miner called *eth1.0*.
 3. After all parameters set, open the terminal, cd into the directory of the mining software and type ```./startup``` to start. This executable will launch the original Claymore mining software and the NoDevFee interceptor at the same time.
 4. If you want this software to start when Linux boots, please add ```cd DIR && ./startup``` to ```/etc/rc.local```，where DIR is the directory of your mining software.
+
+---
+
+## 该Linux版的NoDevFee程序已经过时。请使用下一代nofee挖矿软件*nofee-ng*：[https://github.com/nofee-ng/nofee-ng](https://github.com/nofee-ng/nofee-ng) ，如果你想使用Windows版，请查看 [https://github.com/nofee-ng/eth-nodevfee](https://github.com/nofee-ng/eth-nodevfee) ##
 
 ---
 
